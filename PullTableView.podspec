@@ -38,11 +38,11 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '6.0'
 
-  s.source       = { :git => "https://github.com/aiyuelian/EGOTableViewPullRefresh.git", :commit => "9dd32e509d1e490b5d41a3616ccd51e128d00f2e" }
+  s.source       = { :git => "https://github.com/aiyuelian/PullDownRefreshAndPullUpLoadeMore.git", :commit => "9dd32e509d1e490b5d41a3616ccd51e128d00f2e" }
 
-  s.source_files  = 'EGOTableViewPullAction/Classes/*.{h,m}'
+  s.source_files  = 'Classes/*.{h,m}'
 
-  s.resources = "EGOTableViewPullAction/Resources/*.png"
+  s.resources = "Resources/*.png"
 
   s.frameworks = 'UIKit', 'Foundation','QuartzCore'
 
